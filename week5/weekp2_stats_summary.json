@@ -1,0 +1,89 @@
+{
+  "comparison": "T4400 vs T4400+LIPUS",
+  "method": "Wilcoxon rank sum exact test",
+  "n_total_tested": 16733,
+  "n_abs_log2FC_ge_1": 1041,
+  "n_up_fc1": 626,
+  "n_down_fc1": 415,
+  "n_pvalue_lt_0.05": 425,
+  "n_up_pv05": 415,
+  "n_down_pv05": 10,
+  "n_significant_nominal": 38,
+  "n_up_nominal": 30,
+  "n_down_nominal": 8,
+  "n_significant_fdr": 0,
+  "top10_by_pvalue": [
+    {
+      "feature": "1700001L05Rik",
+      "log2FC": 0.75,
+      "pvalue": 0.0286,
+      "fdr": 1,
+      "sign_group": "T4400"
+    },
+    {
+      "feature": "1700120C14Rik",
+      "log2FC": 1.3219,
+      "pvalue": 0.0286,
+      "fdr": 1,
+      "sign_group": "T4400"
+    },
+    {
+      "feature": "1810030O07Rik",
+      "log2FC": 0.2566,
+      "pvalue": 0.0286,
+      "fdr": 1,
+      "sign_group": "T4400"
+    },
+    {
+      "feature": "2410021H03Rik",
+      "log2FC": -1.3626,
+      "pvalue": 0.0286,
+      "fdr": 1,
+      "sign_group": "T4400+LIPUS"
+    },
+    {
+      "feature": "2610507B11Rik",
+      "log2FC": 0.2587,
+      "pvalue": 0.0286,
+      "fdr": 1,
+      "sign_group": "T4400"
+    },
+    {
+      "feature": "2900008C10Rik",
+      "log2FC": 0.6101,
+      "pvalue": 0.0286,
+      "fdr": 1,
+      "sign_group": "T4400"
+    },
+    {
+      "feature": "3110062M04Rik",
+      "log2FC": 0.4158,
+      "pvalue": 0.0286,
+      "fdr": 1,
+      "sign_group": "T4400"
+    },
+    {
+      "feature": "4732471J01Rik",
+      "log2FC": 0.9758,
+      "pvalue": 0.0286,
+      "fdr": 1,
+      "sign_group": "T4400"
+    },
+    {
+      "feature": "4732491K20Rik",
+      "log2FC": 0.4846,
+      "pvalue": 0.0286,
+      "fdr": 1,
+      "sign_group": "T4400"
+    },
+    {
+      "feature": "4833419F23Rik",
+      "log2FC": 0.6707,
+      "pvalue": 0.0286,
+      "fdr": 1,
+      "sign_group": "T4400"
+    }
+  ],
+  "n_zero_log2FC": 371,
+  "note": "4 vs 4 samples, Wilcoxon test has limited power. After FDR correction across 16733 tests, no gene reaches fdr < 0.05. Smallest nominal pvalue ~0.0286."
+}
